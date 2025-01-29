@@ -3,8 +3,10 @@
 ### 1. Scripts
 - SNM_Fig1allFig2profiles.py:
   This Python script contains the code used to generate Figure 1a-d (presenting results from the virtual chemostat model), and Figure 2a-d (presenting depth profiles from ROMS and observations).
-- (*Matlab script to be added*):
-  This Matlab script contains the code used to generate Figure 2e&f (presenting transect from ROMS)
+- Sun_et_al_ROMS_figures.m:
+  This Matlab script contains the MATLAB code used to generate Figure 2e&f
+  ROMS output can be found in 'data/', with additional functions in 'scripts/'
+  
 
 ### 2. Data files
 - output0D (results from the virtual chemostat model)
