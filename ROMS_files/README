@@ -1,0 +1,1 @@
+The files in this folder contain the ROMS compilable Fortran code ('ROMS_compile/') and the MATLAB scripts used to process the monthly-averaged output from the simulation ('figures_data/')
