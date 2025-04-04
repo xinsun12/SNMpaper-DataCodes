@@ -1,4 +1,4 @@
-## This repository contains Python and Matlab scripts and data used to generate the figures presented in the paper "*title to be added when finalized*"
+## This repository contains Python and Matlab scripts and data used to generate the figures presented in the paper "Microbial Interactions Matter for Biogeochemistry: Nitrite Consumers Induce Nitrite Accumulation"
 
 ### 1. Scripts
 #### A. Scripts for model runs (outputs of these model runs are available, see 2. Data files below)
