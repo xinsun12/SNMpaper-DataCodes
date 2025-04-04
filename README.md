@@ -1,6 +1,12 @@
 ## This repository contains Python and Matlab scripts and data used to generate the figures presented in the paper "*title to be added when finalized*"
 
 ### 1. Scripts
+#### A. Scripts for model runs (outputs of these model runs are available, see 2. Data files below)
+- Folder '0D_files':
+  All Python scripts containing the code used to run the 0-D model.
+- Folder 'ROMS_files':
+  All Fortran scripts containing the code used to run ROMS.
+#### B. Scripts for making figures
 - SNM_Fig1allFig2profiles.py:
   This Python script contains the code used to generate Figure 1a-d (presenting results from the virtual chemostat model), and Figure 2a-d (presenting depth profiles from ROMS and observations).
 - Sun_et_al_ROMS_figures.m:
