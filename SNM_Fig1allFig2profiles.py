@@ -252,8 +252,8 @@ ax4.scatter(rates_data['NO3_reduction_nM_N/d'] / 1000, rates_data['Depth_m'],
             color="firebrick", s=pointsize, alpha=point_alpha)
 # no2-->n2 rates
 ax4.fill_betweenx(rates_data['Depth_m'], 
-                  -(rates_data['DN_Rate_nM_N2/day'] - rates_data['Error.4']) * 2 / 1000,
-                  -(rates_data['DN_Rate_nM_N2/day'] + rates_data['Error.4']) * 2 / 1000,
+                  -(rates_data['DN_Rate_nM_N2/day'] - rates_data['Error.3']) * 2 / 1000,
+                  -(rates_data['DN_Rate_nM_N2/day'] + rates_data['Error.3']) * 2 / 1000,
                   color="goldenrod", linewidth=0, alpha=shade_alpha)
 ax4.plot(-(rates_data['DN_Rate_nM_N2/day'] * 2 / 1000), rates_data['Depth_m'], '--',
          color="goldenrod", linewidth=2)
@@ -261,8 +261,8 @@ ax4.scatter(-(rates_data['DN_Rate_nM_N2/day'] * 2 / 1000), rates_data['Depth_m']
             color="goldenrod", s=pointsize, alpha=point_alpha)
 #Anammox
 ax4.fill_betweenx(rates_data['Depth_m'], 
-                  -(rates_data['AMX_Rate_nM_N2/day'] - rates_data['Error.3']) * 2 / 1000,
-                  -(rates_data['AMX_Rate_nM_N2/day'] + rates_data['Error.3']) * 2 / 1000,
+                  -(rates_data['AMX_Rate_nM_N2/day'] - rates_data['Error.2']) * 2 / 1000,
+                  -(rates_data['AMX_Rate_nM_N2/day'] + rates_data['Error.2']) * 2 / 1000,
                   color="forestgreen", linewidth=0, alpha=shade_alpha)
 ax4.plot(-(rates_data['AMX_Rate_nM_N2/day'] * 2 / 1000), rates_data['Depth_m'], '-',
          color="forestgreen", linewidth=2)
