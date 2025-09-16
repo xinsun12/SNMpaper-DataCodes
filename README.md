@@ -1,4 +1,4 @@
-## This repository contains Python, Matlab, and Fortran scripts and data used to generate the figures presented in the paper "Microbial Interactions Matter for Biogeochemistry: Nitrite Consumers Induce Nitrite Accumulation"
+## This repository contains Python, Matlab, and Fortran scripts and data used to generate the figures presented in the paper "Microbial Nitrite Consumers Induce Nitrite Accumulation in Marine Oxygen Minimum Zones"
 
 ### 1. Scripts
 #### A. Scripts for model runs (outputs of these model runs are available, see 2. Data files below)
